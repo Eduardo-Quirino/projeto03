@@ -9,6 +9,10 @@ body {
     background-color: rgba(234, 174, 10, 0.654);
 }
 
+#text-p {
+    font-size: large;
+}
+
 /* Inicio Menu */
 .menu li {
     list-style: none;
@@ -50,8 +54,7 @@ li a:hover {
 /* Inicio Cards */
 .card {
     background: white;
-    /* margin-left: 15px; */
-    margin: 10px 20px;
+    margin: 12px 30px 30px 50px;
 }
 
 .card-title {
@@ -66,16 +69,23 @@ img {
 
 /* Final Cards */
 
+/* Inicio Botão */
+#btn-home {
+    margin-inline-start: auto;
+}
+
+/* Final Botão */
+
 /*Inicio Roadapé */
 .fixarRodape {
-    bottom: 0;
-    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    height: 12vh;
     width: 100%;
-    text-align: center;
     background: rgba(0, 0, 0, 0.729);
-    padding-top: 10px;
     color: white;
-    font-size: 16px;
 }
 
 /*Final Roadapé */
